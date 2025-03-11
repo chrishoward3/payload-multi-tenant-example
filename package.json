@@ -12,6 +12,7 @@
     "generate:schema": "payload-graphql generate:schema",
     "generate:types": "payload generate:types",
     "payload": "cross-env NODE_OPTIONS=--no-deprecation payload",
+    "pg": "docker-compose up -d",
     "seed": "npm run payload migrate:fresh",
     "start": "cross-env NODE_OPTIONS=--no-deprecation next start"
   },

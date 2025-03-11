@@ -1,0 +1,8 @@
+services:
+  payload-multi-tenant-example:
+    image: postgres
+    container_name: payload-multi-tenant-example
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "5432:5432"
